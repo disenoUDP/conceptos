@@ -7,9 +7,12 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.json())
     .then((json) => {
         console.log(json);
-        for (let i = 0; i < json.length; i++) {
-            conceptosDiv.appendChild(document.createElement('h2')).innerHTML = json[i].nombre;
-            conceptosDiv.appendChild(document.createElement('p')).innerHTML = json[i].definicion;
+        let data = json.conceptos;
+        console.log(data);
+        for (let i = 0; i < data.length; i++) {
+            console.log(data[i]);
+            conceptosDiv.appendChild(document.createElement('h2')).innerHTML = data[i].nombre;
+           conceptosDiv.appendChild(document.createElement('p')).innerHTML = data[i].definicion;
         }
        
 
