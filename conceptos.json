@@ -1,10 +1,10 @@
 {"conceptos":[
-    { "nombre":"Bucle", "definicion": "iteración, repetición. ", "autor": "montoyamoraga", "cursos":  [
+    { "nombre":"Bit", "definicion": "unidad de información digital. Tiene 2 valores posibles que pueden escribirse como sí/no, 0/1, verdadero/falso.", "autor": "montoyamoraga",  "cursos":  [
         "DIS8636",
         "DIS8637",
         "DIS9034"
     ]},
-    { "nombre":"Bit", "definicion": "unidad de información digital. Tiene 2 valores posibles que pueden escribirse como sí/no, 0/1, verdadero/falso.", "autor": "montoyamoraga",  "cursos":  [
+    { "nombre":"Bucle", "definicion": "iteración, repetición. ", "autor": "montoyamoraga", "cursos":  [
         "DIS8636",
         "DIS8637",
         "DIS9034"
