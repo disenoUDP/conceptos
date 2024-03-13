@@ -1,0 +1,16 @@
+body {
+    background-color: #fff;
+    max-width: 100%;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+p {
+    font-size: 15pt;
+    line-height: 1.5em;
+    max-width: 100%;
+}
+
+div {
+    margin: 20px;
+}
