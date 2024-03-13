@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch('./conceptos.json')
     .then((response) => response.json())
     .then((json) => {
-        // console.log(json);
+        console.log(json);
         for (let i = 0; i < json.length; i++) {
             conceptosDiv.appendChild(document.createElement('h2')).innerHTML = json[i].nombre;
             conceptosDiv.appendChild(document.createElement('p')).innerHTML = json[i].definicion;
