@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((response) => response.json())
     .then((json) => {
         let data = json.conceptos;
-        let tabla = document.appendChild(document.createElement('table'));
+        let tabla = conceptosDiv.appendChild(document.createElement('table'));
         document.createElement('h1').innerHTML = 'Conceptos';
 
         // crear encabezados
