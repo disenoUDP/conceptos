@@ -13,14 +13,17 @@ document.addEventListener("DOMContentLoaded", function () {
         // crear encabezados
         tabla.appendChild(document.createElement('th')).innerHTML = 'Nombre';
         tabla.appendChild(document.createElement('th')).innerHTML = 'Definición';
+        tabla.appendChild(document.createElement('th')).innerHTML = 'Cursos';
 
         for (let i = 0; i < data.length; i++) {
-            console.log(data[i]);
             // crear nueva fila
             let fila = tabla.appendChild(document.createElement('tr'));
 
             tabla.appendChild(document.createElement('td')).innerHTML = data[i].nombre;
             tabla.appendChild(document.createElement('td')).innerHTML = data[i].definicion;
+            tabla.appendChild(document.createElement('td')).innerHTML += data[i].cursos;
+
+       
         }
     })
 });
