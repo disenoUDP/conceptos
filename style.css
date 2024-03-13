@@ -15,7 +15,19 @@ div {
     margin: 20px;
 }
 
-table, th, td {
+table {
+    font-family: sans-serif;
     border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
     border-bottom: 1px solid #000;
+    border: 1px solid #000;
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #ff0000;
 }
